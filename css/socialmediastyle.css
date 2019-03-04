@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    background-image: url("https://codetheweb.blog/assets/img/posts/css-advanced-background-images/mountains.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: -10;
+}
+
+#heroe{
+    background-image: url("https://codetheweb.blog/assets/img/posts/css-advanced-background-images/mountains.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: -10;
+}
+
+#heroe-overlay{
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+}
+
+
+#volver{
+
+right:10px;
+
+padding-top: 0px;
+weight: 230px;
+height: 170px;
+display:flex;
+top: -40px;
+position: relative;
+}
+
+#insta{
+    right:700px;
+    padding:0px;
+    margin:0px;
+    weight: 230px;
+    height: 170px;
+    display: flex;
+    top: 300px;
+}
+
+#adentrate{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size: 74px;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    ;
+    display: flex;
+    margin:0px;
+    position: relative;
+    right: -370px;
+    top:50px;
+
+
+}

@@ -1,0 +1,95 @@
+#Titulo{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size: 74px;
+    margin: 0px;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+#Refran{
+    font-size:40px;
+    text-shadow: 2px 0 0px #800040, 3px 2px 0px rgba(77,0,38,0.5), 3px 0 3px #FF002B, 5px 0 3px #800015, 6px 2px 3px rgba(77,0,13,0.5), 6px 0 9px #FF5500, 8px 0 9px #802A00, 9px 2px 9px rgba(77,25,0,0.5), 9px 0 18px #FFD500, 11px 0 18px #806A00, 12px 2px 18px rgba(77,66,0,0.5), 12px 0 30px #D4FF00, 14px 0 30px #6A8000, 15px 2px 30px rgba(64,77,0,0.5), 15px 0 45px #80FF00, 17px 0 45px #408000, 17px 2px 45px rgba(38,77,0,0.5);
+    color: #A7DD3C;
+    display:inline;
+    margin:0px;
+    padding-left: 300px;
+}
+#Refran2{
+    font-size:40px;
+    text-shadow: 2px 0 0px #800040, 3px 2px 0px rgba(77,0,38,0.5), 3px 0 3px #FF002B, 5px 0 3px #800015, 6px 2px 3px rgba(77,0,13,0.5), 6px 0 9px #FF5500, 8px 0 9px #802A00, 9px 2px 9px rgba(77,25,0,0.5), 9px 0 18px #FFD500, 11px 0 18px #806A00, 12px 2px 18px rgba(77,66,0,0.5), 12px 0 30px #D4FF00, 14px 0 30px #6A8000, 15px 2px 30px rgba(64,77,0,0.5), 15px 0 45px #80FF00, 17px 0 45px #408000, 17px 2px 45px rgba(38,77,0,0.5);
+    color: #A7DD3C;
+    display:inline;
+    margin:0px;
+    padding-left: 300px;
+    padding-top: 20px;
+    }
+
+#opinion{
+    display:flexbox;
+    font-size:30px;
+    margin:0px;
+    padding-left: 765px;
+    padding-top: 20px;
+    color: rgba(133, 6, 6, 0.87);
+    text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+}
+#opinionpor{
+    display:flex;
+    font-size:19px;
+    margin:0px;
+    padding-left:865px;
+    padding-top: 35px;
+    color: #000000;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+    color: #000000;
+}
+#logo{
+     margin: 0px;
+    width: 200px;
+    height: 150px;
+    position: relative;
+    top:-250px;
+    display:flex;
+  
+}
+#lapp{
+    margin:0px;
+    width: 300px;
+    height: 250px;
+    position: relative;
+    top:-400px;
+    display:flex;
+   
+}
+#navG{
+    color: white;
+    padding: 0px;
+    background-color:rgb(46, 37, 36);
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 16px;
+    top: 300px;
+
+}
+.nav-enlace{
+    display: inline-block;
+    background: rgb(0, 0, 0);
+    color:white;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin-left: 28px;
+    margin-right: 70px;
+}
+.nav-enlace:hover{
+    background: rgb(87, 71, 0);
+}
+.nav-enlace:active{
+    background:rgb(248, 232, 3)
+}
+
+
+body{
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center;
+background-image: url(https://cdn.pixabay.com/photo/2015/05/15/14/22/conference-room-768441_960_720.jpg);
+background-size: cover;
+}
