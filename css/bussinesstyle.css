@@ -1,0 +1,63 @@
+#heroempresa{
+    background-image: url("http://1.bp.blogspot.com/-9ldYbPkFqtI/TrGwtJb_FpI/AAAAAAAAAZs/16PQLawyFH4/s1600/Sin+t%25C3%25ADtulo-1.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: -10;
+}
+
+#heroempresa-overlay{
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+}
+
+#empresa{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size: 74px;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    ;
+    display: flex;
+    margin:0px;
+    position: relative;
+    right: -670px;
+    top:50px;
+}
+
+#historiap{
+    position: relative;
+    left: 350px;
+    top:250px;
+    font-size: 24px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-family: sans-serif;
+    
+
+
+}
+
+#mapa{
+    display: flex;
+    position: relative;
+    left:590px;
+    top:200px;
+}
+
+#tencent{
+    position:relative;
+    display:flex;
+    bottom: 520px;
+    left:1000px;
+    opacity: 0.6;
+    width: 800px;
+    
+}

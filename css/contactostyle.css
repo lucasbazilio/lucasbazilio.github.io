@@ -1,0 +1,99 @@
+
+
+#heroecontacto{
+    background-image: url("http://www.hdnicewallpapers.com/Walls/Big/Computers/Laptop_on_Desk_HD_Wallpaper.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: -10;
+}
+
+#heroecontacto-overlay{
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+}
+
+#contacto{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size: 74px;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+    ;
+    display: flex;
+    margin:0px;
+    position: relative;
+    right: -790px;
+    top:50px;
+    text-align: center;
+}
+
+.contact-tittle{
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+    text-align: center
+}
+
+.contact-tittle h1{
+    font-size: 36px;
+    line-height: 10px;
+    font-family: sans-serif;
+}
+
+.contact-tittle h2{
+    font-size: 22px;
+    font-family: sans-serif;
+
+}
+.form{
+    margin-top: 50px;
+    transition : all 4s ease-in-out;
+    align:center;
+
+}
+
+.form-control{
+align:center;
+width: 600px;
+background:transparent;
+border:none;
+outline: :none;
+border-botoom: 1px solid gray;
+color:#fff;
+font-size:18px;
+margin-bottom: 16px;
+}
+
+
+#align{
+    text-align: center;
+}
+
+input{
+    height: 45px;
+}
+
+form .submit{
+    background:#ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing:2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}

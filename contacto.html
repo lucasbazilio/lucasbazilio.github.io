@@ -1,20 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <link rel="shortcut icon" href="logo/PCKABEZASLOGO.png">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="css/socialmediastyle.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/contactostyle.css">
 </head>
 <body>
-    <div>
-        <form id="usuario" action="/contacto.html" method="POST">
-        <label for="nombre">Nombre de Usuario</label>
-        <br>
-        <input type="text" name="usuario" id="usuario">
-        <br>
-        <label for="passw">Palabra secreta</label>
-        <br>
-        <input type="password" name="passw" id="passw" value="juanjo">
-        </form>
-    </div>
+
+        <div id="heroecontacto">
+                <nav id="navG">
+                        <a href="./index.html" class="nav-enlace">Inicio</a>
+                        <a href="./sorteos.html"class="nav-enlace">Sorteos</a>
+                        <a href="./nuestraempresa.html"class="nav-enlace">Nuestra empresa</a>
+                        <a href="./contacto.html"class="nav-enlace">Contacto</a>
+                        <a href="./redessociales.html"class="nav-enlace">Redes Sociales</a>
+                        
+                    </nav>
+                    <h1 id="contacto">Contacto</h1>
+                    <section id="align">
+
+                   
+                    <div class="contact-tittle">
+                        <h1>Di Hola</h1>
+                        <h2>Siempre estamos listos para servirte</h2>
+                    </div>
+                    <div class="contact-form">
+                        <form id="contact-form" method="POST" action="">
+                            <input name="name" type="text" class="form-control" placeholder="Tu nombre" required><br>
+                            <input name="email" type="email" class="form-control" placeholder="Tu email" required><br>
+
+                            <textarea name="message" class="form-control" placeholder="Mensaje" rows="4" required></textarea><br>
+
+                            <input type="submit" class="form-control submit" value="ENVIAR MENSAJE">
+                        </form>
+                    
+                    
+                    </div>
+                </section>
+    
+        <div id="heroecontacto-overlay">
+        </div>
+        </div>
+    
 </body>
 </html>
