@@ -1,0 +1,65 @@
+#heroproducto{
+    background-image: url("https://i.ytimg.com/vi/uNCr7NdOJgw/maxresdefault.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: -10;
+}
+
+#heroeproducto-overlay{
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+}
+
+#principio{
+
+    right:10px;
+    
+    padding-top: 0px;
+    weight: 230px;
+    height: 170px;
+    display:flex;
+    top: 60px;
+    position: relative;
+    }
+
+    #galKennedy{
+        color:rgb(0, 0, 0);
+        text-align: center;
+        font-size: 74px;
+        text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+        ;
+        display: flex;
+        margin:0px;
+        position: relative;
+        right: -670px;
+        top:50px;
+    
+    
+    }
+
+  .galeria{
+      margin-left: 180px;
+      margin-top: 20px;
+      margin-right: 180px;
+  }
+
+  .galeria img{
+      width: 230px;
+      padding: 5px;
+      filter: grayscale(100%);
+      transition: 1s;
+  }
+
+  .galeria img:hover{
+      filter: grayscale(0);
+      transform: scale(1.1);
+  }
