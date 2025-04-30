@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucas Bazilio - Computer Scientist and Mathematician</title>
+    <meta name="description" content="Lucas Bazilio is a Computer Scientist and Mathematician specializing in STEM education, research, and online teaching.">
+    <link rel="icon" type="image/png" href="favicon.png">
     <style>
+        html {
+            scroll-behavior: smooth;
+        }
         body {
             font-family: Arial, sans-serif;
             background-color: #0e0b16;
@@ -29,6 +34,7 @@
         nav {
             display: flex;
             justify-content: center;
+            flex-wrap: wrap;
             background: #2e2b5f;
             padding: 0.5rem;
             position: sticky;
@@ -40,6 +46,10 @@
             margin: 0 1rem;
             text-decoration: none;
             font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #d1b02f;
         }
         .container {
             padding: 2rem;
@@ -69,6 +79,14 @@
             width: 150px;
             height: 150px;
         }
+        @media (max-width: 600px) {
+            .container {
+                padding: 1rem;
+            }
+            nav a {
+                margin: 0.5rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -93,7 +111,7 @@
         </section>
         <section id="contact">
             <h2>Contact</h2>
-            <p><a href="https://www.youtube.com/channel/UC8KKJvDdBGbIS-47teH5R1Q" target="_blank">Youtube Channel</a></p>
+            <p><a href="https://www.youtube.com/channel/UC8KKJvDdBGbIS-47teH5R1Q" target="_blank">YouTube Channel</a></p>
             <p><a href="https://www.linkedin.com/in/lucasbazilio/" target="_blank">LinkedIn</a></p>
         </section>
         <section id="courses">
